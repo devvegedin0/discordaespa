@@ -1,0 +1,91 @@
+/**
+ * @name aespa TEAM
+ * @author Custom
+ * @description aespa Winter themed BetterDiscord theme
+ */
+
+@import url("https://github.com/devvegedin0/discordaespa/discordaespa.css");
+
+:root {
+    --background-image: url("https://magazine.032c.com/magazine/032c-x-aespa-capsule-collab");
+
+    --accent: #b98cff;
+    --accent2: #ff8fd8;
+
+    --background-primary: rgba(10, 8, 18, 0.72);
+    --background-secondary: rgba(15, 11, 25, 0.68);
+    --background-tertiary: rgba(8, 6, 15, 0.78);
+}
+
+/* Main background */
+.appMount__51fd7 {
+    background:
+        linear-gradient(
+            rgba(5, 3, 12, 0.45),
+            rgba(5, 3, 12, 0.65)
+        ),
+        var(--background-image) center / cover fixed !important;
+}
+
+/* Discord content transparency */
+.bg__960e4 {
+    background: transparent !important;
+}
+
+.layer__960e4 {
+    background: transparent !important;
+}
+
+/* Server sidebar */
+.guilds__5e434 {
+    background: rgba(5, 3, 10, 0.65) !important;
+    backdrop-filter: blur(12px);
+}
+
+/* Channel sidebar */
+.sidebar__5e434 {
+    background: rgba(10, 7, 18, 0.62) !important;
+    backdrop-filter: blur(14px);
+}
+
+/* Chat */
+.chat_f75fb0 {
+    background: rgba(10, 7, 18, 0.30) !important;
+}
+
+/* Member list */
+.members_c8ffbb {
+    background: rgba(10, 7, 18, 0.55) !important;
+    backdrop-filter: blur(12px);
+}
+
+/* Selected channel */
+.wrapper__2ea32.modeSelected__2ea32 {
+    background: rgba(185, 140, 255, 0.20) !important;
+    box-shadow: inset 3px 0 0 #b98cff;
+}
+
+/* Channel hover */
+.wrapper__2ea32:hover {
+    background: rgba(185, 140, 255, 0.12) !important;
+}
+
+/* Username glow */
+.username_c19a55 {
+    text-shadow:
+        0 0 6px rgba(185, 140, 255, 0.7),
+        0 0 15px rgba(255, 143, 216, 0.4);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        #b98cff,
+        #ff8fd8
+    ) !important;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
